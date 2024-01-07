@@ -4,7 +4,7 @@
 ##### Can you get the flag? Run this [Python program](https://artifacts.picoctf.net/c/200/patchme.flag.py) in the same directory as this [encrypted flag](https://artifacts.picoctf.net/c/200/flag.txt.enc).
 ### Hiểu đoạn code:
 ##### + Chạy thử file patchme.flag.py:
-```bash
+```
 $ chmod +x patchme.flag.py
 $ python3 patchme.flag.py
 Please enter correct password for flag: exit    
@@ -25,7 +25,7 @@ def level_1_pw_check():
     print("That password is incorrect")
 ```
 ##### => Có đoạn kiểm tra mật khẩu và nếu mật khẩu đúng sẽ giải mã flag cho người dùng:
-```bash
+```
 $ python3 patchme.flag.py
 Please enter correct password for flag: ak98-=90adfjhgj321sleuth9000
 Welcome back... your flag, user:
