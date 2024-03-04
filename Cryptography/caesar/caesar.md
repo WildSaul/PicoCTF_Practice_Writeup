@@ -2,8 +2,8 @@
 ##### Tags: `picoCTF 2021` `Cryptography`
 ### DESCRIPTION
 ##### Decrypt this [message](https://jupiter.challenges.picoctf.org/static/6385b895dcb30c74dbd1f0ea271e3563/ciphertext).
-##### Đây là một chanllenge liên quan đến mật mã Caesar. Đây là một trong những kỹ thuật mã hóa đơn giản và phổ biến nhất. Đây là một dạng mật mã thay thế, trong đó mỗi ký tự trên văn bản thô sẽ được thay bằng một ký tự khác, có vị trí cách nó một khoảng xác định trong bảng chữ cái..
-##### VD: `abc` -> shift 1 -> `bcd`
+##### Đây là một chanllenge liên quan đến mật mã Caesar. 
+> Caesar là một trong những kỹ thuật mã hóa đơn giản và phổ biến nhất. Đây là một dạng mật mã thay thế, trong đó mỗi ký tự trên văn bản thô sẽ được thay bằng một ký tự khác, có vị trí cách nó một khoảng xác định trong bảng chữ cái.
 ##### Vì bài không cho dữ kiện rằng sẽ shift bao nhiêu ký tự và bảng chữ cái chỉ có thể shift được 24 lần, nên sẽ tạo một chương trình 'bruteforce' mật mã này:
 ``` python
 def caesar_decode(ciphertext):
