@@ -1,8 +1,6 @@
 # REVERSE
 ##### Tags: `picoCTF2023` `Reverse Engineering`
 ### DESCRIPTION
-Author: Mubarak Mikail
-Description
 Try reversing this [file](https://artifacts.picoctf.net/c/274/ret)? Can ya? I forgot the password to this file. Please find it for me?
 ### Hiểu file tải về:
 ##### + Kiểm tra file + cấp quyền thực thi cho file:
